@@ -44,19 +44,22 @@
     position: relative;
     padding: 1rem;
 }
+
 .iphone{
     position: absolute;
     z-index: 100;
     min-width: 300px;
-    width: 50%;
+    width: 45%;
     right: 0;
+    height:450px;
 }
 .gradient{
     position: absolute;
-    min-width: 250px;
-    width: 40%;
-    top:6.5rem;
+    min-width: 200px;
+    width: 37%;
+    top:5.5rem;
     right: 0;
+    height:400px;
 }
 
 @media only screen and (max-width : 1250px) {

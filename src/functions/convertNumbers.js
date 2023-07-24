@@ -18,6 +18,6 @@ export const convertNumber = (number) => {
         return arr[0] + "." +arr[1].slice(0,2) +"K";
     }
     else{
-        return number.toLocalString();
+        return number.toLocaleString();
     }
 };

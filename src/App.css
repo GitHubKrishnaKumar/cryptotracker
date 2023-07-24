@@ -52,3 +52,11 @@ img{
   border-radius: 0.8rem;
   padding: 0rem 0.5rem;
 }
+
+.coins-days-flex{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin: 0rem 1.5rem;
+  gap: 2rem;
+}

@@ -5,7 +5,7 @@ function CoinInfo({heading, desc}) {
     const longDesc = desc + "<span style='color: var(--grey)'> Read Less... </span> ";
     const [flag, setFlage] = useState(false);
   return (
-    <div className='grey-wrapper'>
+    <div className='grey-wrapper' style={{paddiing: "0rem 1rem"}}>
         <h2 className='coin-info-heading'>{heading}</h2>
         {desc.length > 350 ? (
             <p 
