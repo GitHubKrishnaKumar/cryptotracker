@@ -49,17 +49,16 @@
     position: absolute;
     z-index: 100;
     min-width: 300px;
-    width: 45%;
+    width: 50%;
     right: 0;
-    height:450px;
+    
 }
 .gradient{
     position: absolute;
     min-width: 200px;
-    width: 37%;
+    width: 40%;
     top:5.5rem;
     right: 0;
-    height:400px;
 }
 
 @media only screen and (max-width : 1250px) {
