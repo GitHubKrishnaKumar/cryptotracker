@@ -1,0 +1,50 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+    background-color: var(--black);
+    z-index: 101;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+.link{
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.link:hover{
+    color: var(--white);
+    transition:  all 0.3s;
+}
+/* side menu drawer using mui.com */
+.mobile-drawer{
+    display: none;
+}
+
+ @media only screen and (max-width : 800px) {
+    .navbar{
+        padding: 1.5rem;
+    }
+    .logo{
+        font-size: 1rem;
+    }
+    .links{
+        display: none;
+    }
+    .mobile-drawer{
+        display: block;
+    }
+    .drawer-div{
+        width: 30vh;
+        background-color: var(--black);
+        height: 100%;
+        padding: 1.5rem;
+    }
+ }
